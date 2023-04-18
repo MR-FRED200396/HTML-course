@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.task {
+    margin-bottom: 30px;
+}
+
+.section {
+    padding: 20px 0;
+    margin-bottom: 40px;
+}
+
+.site-header {
+    background: url('http://itgid.info/img/html/header_bg_1000.png');
+    background-position: 50% 50%;
+    background-size: cover;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.site-header .header-wrap {
+    margin: 40px 0;
+    background-color: rgba(255, 255, 255, 0.75);
+    padding: 20px 0;
+}
+
+.site-header h1,
+.site-header h2 {
+    color: #222;
+    font-size: 26px;
+    text-align: center;
+    padding: 0 0 30px 0;
+    text-transform: uppercase;
+}
+.site-header img {
+    max-width: 100%;
+}
+
+.site-header h1,
+.site-header h2 {
+    color: #222;
+    font-size: 26px;
+    text-align: center;
+    margin: 30px auto;
+    text-transform: uppercase;
+}
+
+.site-header h2 {
+    font-size: 22px;
+}
+
+.site-header a {
+    color: #3b0b99;
+}
+
+.site-header h2 a {
+    text-decoration: none;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+.container {
+    max-width: 1000px;
+    width: 80%;
+    margin: 0 auto;
+    background: #f1f1f1;
+    padding: 10px;
+}
+
+section {
+    margin-bottom: 100px;
+}
+
+figure {
+    padding: 30px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+figure img {
+    max-width: 100%;
+    box-shadow: 0 0 10px #c0c0c0;
+}
+
+figcaption {
+    font-style: italic;
+}
+
+p {
+    margin: 20px;
+    line-height: 150%;
+    margin-bottom: 30px;
+}
+.bg-orange {
+    background: orange;
+}
+
+.bg-orangered {
+    background: orangered;
+}
+
+.bg-brown {
+    background: brown;
+}
+
+.bg-darkcyan {
+    background: darkcyan;
+}
+
+.bg-dodgerBlue {
+    background: DodgerBlue;
+}
+
+.block {
+    width: 100px;
+    height: 100px;
+}
+
+.out-1 img,
+.out-2 img,
+.out-3 img,
+.out-4 img,
+.out-5 img,
+.out-6 img,
+.out-7 img,
+.out-8 img,
+.out-9 img {
+    width: 128px;
+}
+
+.block {
+    width: 150px;
+    height: 150px;
+}
+
+.block-1 {
+    animation-name: task1;
+    animation-iteration-count: 3;
+    animation-duration: 1s;
+}
+
+@keyframes task1 {
+    100% {
+        border-radius: 50%;
+        background-color: orange;
+    }
+}
+.out-2 {
+    position: relative;
+}
+.block-2 {
+    animation-name: task2;
+    animation-iteration-count: 1;
+    animation-duration: 3s;
+    position: relative;
+    left: 0;
+    animation-fill-mode: backwards;
+}
+
+@keyframes task2 {
+    0% {
+        left: 0;
+    }
+    50% {
+        left: calc(100% - 150px);
+    }
+    100% {
+        left: 0;
+    }
+}
+.out-3 img {
+    animation-name: task3;
+    animation-iteration-count: 5;
+    animation-duration: 2s;
+}
+@keyframes task3 {
+    0% {
+    }
+    100% {
+        rotate: 360deg;
+    }
+}
+.out-4 {
+    width: 100px;
+    height: 30px;
+    position: relative;
+    margin: 0 auto;
+    border: 2px solid black;
+}
+.out-4-inner {
+    position: absolute;
+    width: 300px;
+    height: 30px;
+}
+.out-4-inner span {
+    position: relative;
+    animation-name: task4;
+    animation-iteration-count: infinite;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+    float: left;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    top: 4px;
+}
+@keyframes task4 {
+    0% {
+        right: 0px;
+    }
+    25% {
+        right: 100px;
+    }
+    50% {
+        right: 200px;
+    }
+    100% {
+        right: 0px;
+    }
+}
+.out-5 {
+    width: 128px;
+    height: 128px;
+    position: relative;
+    margin: 0 auto;
+    border: 2px solid black;
+}
+.out-5-inner {
+    position: absolute;
+    width: 512px;
+    height: 128px;
+}
+.out-5-inner img {
+    position: relative;
+    animation-name: task5;
+    animation-iteration-count: infinite;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+    float: left;
+    width: 128px;
+    height: 128px;
+}
+@keyframes task5 {
+    0% {
+        right: 0px;
+    }
+    25% {
+        right: 128px;
+    }
+    50% {
+        right: 256px;
+    }
+    75% {
+        right: 384px;
+    }
+    100% {
+        right: 0px;
+    }
+}

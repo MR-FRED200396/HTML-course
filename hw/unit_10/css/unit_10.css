@@ -1,0 +1,492 @@
+@font-face {
+    font-family: "Muller Black";
+    src: url('../fonts/mullerblack.otf');
+}
+
+@font-face {
+    font-family: "Muller Regular";
+    src: url('../fonts/muller_reg.otf');
+}
+
+html, body {
+    /* color: #212121; */
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.color-orange {
+    color: #FF6B0C;
+}
+
+.color-white {
+    color: #fff;
+}
+
+.bg-orange {
+    background-color: #FF6B0C;
+}
+
+.bg-yellow-gradient {
+    background: linear-gradient(to bottom, #ffb645 0%, #ffbe3e 100%);
+}
+
+.color-airbus-1 {
+    color: #8db9ca;
+}
+
+.bg-airbus-1 {
+    background-color: #c7e8f5;
+}
+
+.color-angie-1 {
+    color: #7fbb00;
+}
+
+.bg-angie-1 {
+    background-color: #cfe898;
+}
+
+.color-bitly-1 {
+    color: #2754ba;
+}
+
+.bg-bitly-1 {
+    background-color: #b5ccff;
+}
+
+.color-bower-1 {
+    color: #ffcc2f;
+}
+
+.bg-bower-1 {
+    background-color: #ffdc71;
+}
+
+.color-mate-1 {
+    color: #decba5;
+}
+
+.bg-mate-1 {
+    background-color: #e2d7c2;
+}
+
+.color-bt-1 {
+    color: #d52685;
+}
+
+.bg-bt-1 {
+    background-color: #e683b9;
+}
+
+.color-bynder-1 {
+    color: #00aaff;
+}
+
+.bg-bynder-1 {
+    background-color: #50c5ff;
+}
+
+.color-cc-1 {
+    color: #b62b6e;
+}
+
+.bg-cc-1 {
+    background-color: #bd7497;
+}
+
+.bg-shop {
+    background-color: #ffb27b;
+}
+
+.orange-button {
+    background: #FF6B0C;
+    padding: 15px 25px;
+    color: #fff;
+    font-family: "Muller Regular", sans-serif;
+    font-size: 18px;
+    border-radius: 0;
+    margin: 40px auto;
+}
+
+.orange-button:hover {
+    background: rgb(223, 90, 7);
+    color: #fff;
+}
+
+.orange-button:active {
+    background: rgb(177, 69, 3);
+    color: #fff;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: "Muller Regular", sans-serif;
+    color: #181c27;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+section h2 {
+    margin: 50px auto;
+    font-size: 46px;
+}
+
+.site-logo-h1, .site-logo-h2 {
+    color: #fff;
+    font-family: 'Muller Regular', sans-serif;
+}
+
+.hero-1 {
+    font-family: 'Muller Regular', sans-serif;
+    font-size: 32px;
+    margin: 100px 0 40px 0;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.hero-2 {
+    font-family: 'Muller Black', sans-serif;
+    font-size: 62px;
+    margin: 10px 0 25px 0;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 120%;
+}
+
+.hero-3 {
+    font-family: 'Muller Regular', sans-serif;
+    font-size: 24px;
+    margin: 30px 0 30px 0;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 150%;
+}
+
+.site-header {
+    background: background: rgba(24, 28, 39, 1);
+    background: -moz-linear-gradient(left, rgba(24, 28, 39, 1) 0%, rgba(12, 32, 56, 1) 47%, rgba(24, 28, 39, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(24, 28, 39, 1)), color-stop(47%, rgba(12, 32, 56, 1)), color-stop(100%, rgba(24, 28, 39, 1)));
+    background: -webkit-linear-gradient(left, rgba(24, 28, 39, 1) 0%, rgba(12, 32, 56, 1) 47%, rgba(24, 28, 39, 1) 100%);
+    background: -o-linear-gradient(left, rgba(24, 28, 39, 1) 0%, rgba(12, 32, 56, 1) 47%, rgba(24, 28, 39, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(24, 28, 39, 1) 0%, rgba(12, 32, 56, 1) 47%, rgba(24, 28, 39, 1) 100%);
+    background: linear-gradient(to right, rgba(24, 28, 39, 1) 0%, rgba(12, 32, 56, 1) 47%, rgba(24, 28, 39, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#181c27', endColorstr='#181c27', GradientType=1);
+    padding: 50px 0;
+}
+
+.you-can-item {
+    position: relative;
+    padding-top: 75px;
+}
+
+.you-can-item .count {
+    position: absolute;
+    top: 0;
+    left: 20px;
+    color: #ff9755;
+    font-size: 200px;
+    z-index: -1;
+    font-family: 'Muller Black', sans-serif;
+    line-height: 1;
+}
+
+.you-can-item h6 {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.you-can-item p {
+    font-size: 16px;
+    margin-top: 25px;
+    line-height: 1.3;
+    font-weight: 300;
+}
+
+.grey-line {
+    background: #f0f0f0;
+}
+
+.section-line {
+    padding: 10px 0 30px 0;
+    margin: 40px 0;
+}
+
+.course-technology {
+    max-width: 175px;
+    max-height: 90px;
+    margin: 20px;
+}
+
+.course-list {
+    font-size: 16px;
+    list-style-type: none;
+}
+
+.course-list li {
+    line-height: 150%;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.course-list li::before {
+    display: block;
+    content: "";
+    background: #181c27;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    left: -26px;
+    top: -11px;
+}
+
+.tags {
+    font-family: monospace;
+    padding: 3px;
+    border-radius: 4px;
+}
+
+.tags::before {
+    content: "{";
+    font-family: monospace;
+}
+
+.tags::after {
+    content: "}";
+    font-family: monospace;
+}
+
+.about-project p {
+    margin: 15px 0 15px 0;
+}
+
+.how-course {
+    font-size: 16px;
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+.how-course li {
+    line-height: 150%;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+.how-course li::before {
+    content: "";
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url(../images/right.svg);
+    background-size: contain;
+    position: relative;
+    top: 6px;
+}
+
+.process-education-tabs {
+    list-style-type: none;
+}
+
+.process-education-tabs a {
+    text-transform: uppercase;
+    width: 100%;
+    padding: 17px 0;
+    background: #f5f5f5;
+    text-align: center;
+    display: inline-block;
+    line-height: 1;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    transition: all .3s ease;
+    margin: 5px;
+    text-decoration: none;
+}
+
+.process-education-tabs .active a {
+    background: #FF6B0C;
+    color: #fff;
+}
+
+.tab-content {
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.tab-content h3 {
+    margin-top: 0;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+
+.tab-content img {
+    display: block;
+    max-width: 300px;
+    margin: 20px auto;
+}
+
+.course-cost {
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.how-pay {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.how-pay li {
+    margin-bottom: 10px;
+}
+
+.how-pay li::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-image: url(../images/right.svg);
+    background-size: contain;
+    position: relative;
+    top: 4px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.navbar {
+    background: #0c2037;
+    color: #fff;
+    font-family: "Muller Regular";
+}
+
+.navbar a, .navbar-default .navbar-brand, .navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-nav>li>a:hover {
+    color: #fff;
+}
+
+.navbar-default .navbar-toggle {
+    color: #fff;
+    border-color: #fff;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background: #fff;
+}
+
+.author-photo {
+    max-width: 150px;
+}
+
+.course-num {
+    list-style-type: none;
+    font-size: 18px;
+}
+
+.course-num li {
+    line-height: 150%;
+    margin-bottom: 20px;
+}
+
+.black-white {
+    background: #000;
+    color: #fff;
+    padding: 4px 2px 3px 2px;
+    font-size: 16px;
+    font-family: "Muller Regular";
+    position: relative;
+    top: -3px;
+}
+
+.orange-bold {
+    font-family: "Muller Black";
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.carousel-inner>.item {
+    min-height: 150px;
+    text-align: center;
+}
+
+.carousel-inner>.item>.slider-img {
+    max-width: 84px;
+    display: block;
+    margin: 30px auto;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background: none;
+}
+
+.carousel-indicators li {
+    background-color: #FF6B0C;
+    border-radius: 0;
+}
+
+.carousel-indicators .active {
+    background: #000;
+}
+
+.carousel-indicators {
+    position: relative;
+}
+
+.carousel-control .glyphicon-chevron-right, .carousel-control .glyphicon-chevron-left {
+    top: 30%;
+}
+
+.site-footer {
+    background: #181c27;
+    color: #fff;
+    margin-top: 50px;
+    padding: 40px 0;
+}
+
+.site-footer h3 {
+    color: #fff;
+}
+
+.icon-line i {
+    font-size: 48px;
+    color: #fff;
+    display: inline-block;
+    margin: 10px;
+}
+
+.icon-line a {
+    color: #fff;
+}
+
+.panel-title a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.video-youtube {
+    position: relative;
+    padding-bottom: 56.25%;
+    /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+    margin-bottom: 30px;
+    background-color: white;
+    -webkit-box-shadow: 6px 5px 16px 0px rgba(0, 0, 0, 0.08), 0 0 3px 1px rgba(0, 0, 0, 0.08);
+    box-shadow: 6px 5px 16px 0px rgba(0, 0, 0, 0.08), 0 0 3px 1px rgba(0, 0, 0, 0.08);
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-youtube iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

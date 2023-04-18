@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.site-header img {
+    max-width: 100%;
+}
+
+.site-header h1,
+.site-header h2 {
+    color: #222;
+    font-size: 26px;
+    text-align: center;
+    margin: 30px auto;
+    text-transform: uppercase;
+}
+
+.site-header h2 {
+    font-size: 22px;
+}
+
+.site-header a {
+    color: #3b0b99;
+}
+
+.site-header h2 a {
+    text-decoration: none;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+figure {
+    padding: 30px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+figure img {
+    max-width: 100%;
+    box-shadow: 0 0 10px #c0c0c0;
+}
+
+figcaption {
+    font-style: italic;
+}
+
+p {
+    margin: 20px;
+    line-height: 150%;
+    margin-bottom: 30px;
+}
+
+.container {
+    max-width: 1000px;
+    width: 80%;
+    margin: 0 auto;
+    background: #f1f1f1;
+    padding: 10px;
+}
+
+.bg-orange {
+    background: orange;
+}
+
+.bg-orangered {
+    background: orangered;
+}
+
+.bg-brown {
+    background: brown;
+}
+
+.bg-darkcyan {
+    background: darkcyan;
+}
+
+.bg-dodgerBlue {
+    background: DodgerBlue;
+}
+
+.out-1,
+.out-2,
+.out-3,
+.out-4,
+.out-5,
+.out-6,
+.out-7 {
+    margin: 30px auto;
+}
+
+.block {
+    width: 50px;
+    height: 150px;
+    margin: 1%;
+}
+
+.block-3 {
+    width: 100px;
+    height: 100px;
+}
+.link-1:visited {
+    color: #6495ed;
+}
+.link-2:visited {
+    color: #e9967a;
+}
+.link-1:hover {
+    color: #7fff00;
+}
+.link-2:hover {
+    color: #d2691e;
+}
+.btn-2:hover {
+    background-color: #556b2f;
+}
+.block-3:hover {
+    width: 500px;
+    transition: all ease 1s;
+}
+.p-4::after {
+    content: '***';
+    margin: 20px auto;
+    display: block;
+    text-align: center;
+}
+.p-5::before {
+    content: '[';
+    color: orange;
+}
+.p-5::after {
+    content: ']';
+    color: orange;
+}
+.ul-6 li {
+    list-style: none;
+}
+.ul-6 li::before {
+    content: ' \201c';
+}
+.p-7::first-letter {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: orangered;
+    font-size: 36px;
+}
+.p-8::first-line {
+    color: orangered;
+}
+.p-9::first-line {
+    color: red;
+}
+.p-9::first-letter {
+    color: green;
+}
+.i-10:focus-visible {
+    background-color: orange;
+}

@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.task {
+    margin-bottom: 30px;
+}
+
+.section {
+    padding: 20px 0;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.site-header {
+    background: url('http://itgid.info/img/html/header_bg_1000.png');
+    background-position: 50% 50%;
+    background-size: cover;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.site-header .header-wrap {
+    margin: 40px 0;
+    background-color: rgba(255, 255, 255, 0.75);
+    padding: 20px 0;
+}
+
+.site-header h1,
+.site-header h2 {
+    color: #222;
+    font-size: 26px;
+    text-align: center;
+    padding: 0 0 30px 0;
+    text-transform: uppercase;
+}
+.site-header h2 {
+    font-size: 22px;
+}
+
+.site-header a {
+    color: #3b0b99;
+}
+
+.site-header h2 a {
+    text-decoration: none;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+.container {
+    max-width: 1000px;
+    width: 80%;
+    margin: 0 auto;
+    background: #f1f1f1;
+    padding: 10px;
+}
+
+p {
+    margin: 20px;
+    line-height: 150%;
+    margin-bottom: 30px;
+}
+
+.canvas {
+    width: 800px;
+    height: 1000px;
+    background-color: white;
+    background-image: url(../images/bg.png);
+    position: relative;
+}
+.img-1,
+.img-2,
+.img-3 {
+    position: absolute;
+    top: 250px;
+}
+.img-1 {
+    left: 50px;
+}
+.img-2 {
+    left: 300px;
+}
+.img-3 {
+    left: 550px;
+}
+.slogan {
+    position: absolute;
+    left: 50px;
+    top: 150px;
+}
+.second-slogan {
+    position: absolute;
+    top: 722px;
+    right: 38px;
+}
